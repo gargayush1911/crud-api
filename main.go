@@ -14,12 +14,12 @@ type movie struct {
 	Id string `json:"id"`
 	Isbn string `json:"isbn"`
 	Title string `json:"title"`
-	Director *director `json:"director:`
+	Director *director `json:"director`
 }
 
 type director struct {
-	FirstName string `json:"firstname:`
-	LastName string `json:"lastname:`
+	FirstName string `json:"firstname`
+	LastName string `json:"lastname`
 }
 
 var movies []movie
